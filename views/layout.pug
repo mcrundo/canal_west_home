@@ -1,7 +1,14 @@
 doctype html
-html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+html(lang="en-US")
+	head
+		title= title
+		link(href='https://fonts.googleapis.com/css?family=Zilla+Slab:400,400i,500,500i,700"', rel='stylesheet')
+		link(rel='stylesheet', href='/style/style.css')
+		link(rel='stylesheet', href='/style/vendor/animate-lite.css')
+		meta(name='author', content='Canal West')
+		meta(name='description', content='Delivering modern technical solutions for your industryl')
+		meta(name='twitter:title', content='Canal West')
+		link(rel='shortcut icon', href='https://s3.us-east-2.amazonaws.com/canalweststudio/assets/img/favicon.png', type='image/x-icon')
+
+	body
+		block content

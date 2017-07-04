@@ -1,0 +1,109 @@
+cw-font = district-font = 'Zilla Slab', Times;
+
+cw-blue = #00b7f1
+cw-gold = #FDBB30
+cw-orange = #f16522
+dark-gray = #666
+error = #860038
+off-black = #111
+light-gray = #ccc
+success = #1ABC9C
+lgt-blue = #0C2340
+lgt-red = #D50032
+
+
+  
+html, body
+  font 18px cw-font
+  height 100%
+  margin 0
+  padding 0
+  position relative
+  
+a
+  color cw-orange
+  text-decoration none
+
+a:hover
+	color cw-blue
+	text-decoration underling
+
+a:visited
+	color cw-blue
+	text-decoration underline
+	
+h4
+	text-align center
+	
+.content__center
+	display block
+	margin 0 auto
+	  
+.container
+	margin-bottom -200px
+	min-height 100%
+	min-width 1200px
+	position relative
+	&:after
+		content ''
+		display block
+	
+.inner
+	display block
+	margin-top 40px
+	max-width 720px
+	padding 60px 20px
+	
+.main 
+	max-width 680px
+	img
+		width 100%
+		margin-left 20px
+		max-width 400px
+		
+li
+	margin-bottom 10px
+	
+.global__footer
+	background cw-blue
+	color cw-orange
+	font-size 18px
+	height 200px
+	img
+		margin-top 50px
+		max-width 220px
+	ul
+		margin-top 38px
+		display inline-block
+		float right
+		li
+			list-style none
+			text-shadow: 1px 1px #fff;
+		li.hover--trans
+			background white
+			color cw-orange
+			cursor pointer
+			font-size 30px
+			font-weight 700
+			padding 2px 35px
+			text-align left
+			-webkit-transition all 0.4s ease-in
+		  -moz-transition all 0.4s ease-in
+		  -o-transition all 0.4s ease-in
+		  transition all 0.4s ease-in
+		  &li.hover--trans:hover
+		  	background cw-orange
+		    color white;
+		  	-webkit-transition all 0.0s ease-in
+		    -moz-transition all 0.0s ease-in
+		    -o-transition all 0.0s ease-in
+		    transition all 0.0s ease-in
+  	
+.global__footer--inner
+	max-width 720px
+	
+
+.visually-hidden
+	font-size 0
+	height 0
+	visibility hidden
