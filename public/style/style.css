@@ -71,7 +71,7 @@ li {
   list-style: none;
   text-shadow: 1px 1px #fff;
 }
-.global__footer ul li.hover--trans {
+.global__footer ul li.fade--trans {
   background: #fff;
   color: #f16522;
   cursor: pointer;
@@ -80,15 +80,15 @@ li {
   padding: 2px 35px;
   text-align: left;
 }
-.global__footer ul li.hover--trans -webkit-transition all 0.4s ease-in {
+.global__footer ul li.fade--trans -webkit-transition all 0.4s ease-in {
   -moz-transition: all 0.4s ease-in;
   -o-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
 }
-.global__footer ul li.hover--trans -webkit-transition all 0.4s ease-inli.hover--trans:hover background cw-orange {
+.global__footer ul li.fade--trans -webkit-transition all 0.4s ease-in:li.fade--trans:hover background cw-orange {
   color: #fff;
 }
-.global__footer ul li.hover--trans -webkit-transition all 0.4s ease-inli.hover--trans:hover -webkit-transition all 0.0s ease-in {
+.global__footer ul li.fade--trans -webkit-transition all 0.4s ease-in:li.fade--trans:hover -webkit-transition all 0.0s ease-in {
   -moz-transition: all 0s ease-in;
   -o-transition: all 0s ease-in;
   transition: all 0s ease-in;
