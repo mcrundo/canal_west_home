@@ -6,27 +6,19 @@ block content
 	div.container
 		header
 			h1.visually-hidden
-				= title
+				span Canal West
 		section
 			div.inner.content__center.animated.fadeIn
 				div.main.content__center
 					img(src="https://s3.us-east-2.amazonaws.com/canalweststudio/assets/img/CanalWest_Logo-web.svg")
 				h2 Delivering modern technical solutions for <em>your</em> business.
 				ul
-					li <strong>Full-Stack Software</strong> (<em>API Development, Rails, JS + Frameworks/Libraries, Node.js, Salesforce APEX, React, React Native (iOS/Android), Shopify and much more&hellip;. Covering the web front end, back end, data storage, mobile, and  authentiation/secutiry all in between</em>)
-					li <strong>Consultation</strong> (<em>Have <strong>your</strong>   big idea? Contact <strong>Canal West</strong> for consultation: MVP (Minimum Viable Prodct) Planning, Wireframes, Milestone/User Story Planning, Quote Expectaions&nbsp;&ndash;&nbsp;<strong>Saving You Money and Time</strong>&nbsp;&ndash;&nbsp;Before Development, with us or a &#8220;big&ndash;time&#8221; agency</em>)
-					li <strong>Modern Compliance Approaches</strong> (<em>Accessibility, Localiztion, Modularied Components, Mobile Web/Responsive Design, 3rd Party API Integration</em>)
-					li <strong>Marketing</strong> (<em>Lead Tracking, Tailored Customer Relation Management, Analytics, Campaign Management, Audience Insights, Campaign Performance Consulation</em>)
-					li <strong>Media/Branding</strong> (<em>Logos, Wordmarks, General Design, Typeface, Copy, Photography/Video (Camera/Drone) w/ wireless mic setup, Overall Branding Style Guides</em>)
-					<li> <strong>Cutting-Edge Technology</strong> <em>(iBeacon/Bluetooth Concepts and Solutions, Physical GPS Tracking, Raspberry Pi Applications for Various Use Cases)</em></li>
+					each tech in data
+						li!= tech.title
+							span &nbsp;
+							!=tech.body
 				h3 <strong>Canal West Studio</strong>: <em>Flexible. Honest. Agile. Consistent. Built for the Future. Today.</em>
 				h4 We are <em>very</em> selective on projects, but please <a href="mailto:contact@canalweststudio.com">Contact Us</a> for a free consultation.
-		footer.global__footer
-			div.content__center.global__footer--inner
-				img(src="https://s3.us-east-2.amazonaws.com/canalweststudio/assets/img/wordmark-white.svg")
-				ul
-					li Canal West Studio
-					li 1050 30th Street
-					li Washington, DC 2007
-					li.fade--trans <a href="mailto:contact@canalweststudio.com">Contact</a>
+
+		include ./common/_footer
 

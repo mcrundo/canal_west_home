@@ -6,6 +6,7 @@ body {
   padding: 0;
   position: relative;
 }
+.headrer__forst,
 a {
   color: #f16522;
   text-decoration: none;
@@ -56,7 +57,7 @@ li {
   background: #00b7f1;
   color: #f16522;
   font-size: 18px;
-  height: 200px;
+  height: 210px;
 }
 .global__footer img {
   margin-top: 50px;
@@ -85,10 +86,16 @@ li {
   -o-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
 }
-.global__footer ul li.fade--trans -webkit-transition all 0.4s ease-in:li.fade--trans:hover background cw-orange {
+.fade--trans:hover,
+li.fade--trans:hover {
+  background: #f16522;
   color: #fff;
 }
-.global__footer ul li.fade--trans -webkit-transition all 0.4s ease-in:li.fade--trans:hover -webkit-transition all 0.0s ease-in {
+.global__footer ul li.fade--trans:hover,
+li.fade--trans a:hover {
+  background: #f16522;
+  color: #fff;
+  -webkit-transition: all 0s ease-in;
   -moz-transition: all 0s ease-in;
   -o-transition: all 0s ease-in;
   transition: all 0s ease-in;

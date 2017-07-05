@@ -20,6 +20,10 @@ html, body
   padding 0
   position relative
   
+.headrer__forst 
+	
+
+  
 a
   color cw-orange
   text-decoration none
@@ -68,7 +72,7 @@ li
 	background cw-blue
 	color cw-orange
 	font-size 18px
-	height 200px
+	height 210px
 	img
 		margin-top 50px
 		max-width 220px
@@ -91,13 +95,20 @@ li
 		  -moz-transition all 0.4s ease-in
 		  -o-transition all 0.4s ease-in
 		  transition all 0.4s ease-in
-		  &:li.fade--trans:hover
-		  	background cw-orange
-		    color white;
-		  	-webkit-transition all 0.0s ease-in
-		    -moz-transition all 0.0s ease-in
-		    -o-transition all 0.0s ease-in
-		    transition all 0.0s ease-in
+		  
+.fade--trans:hover,
+li.fade--trans:hover
+	background cw-orange
+	color white
+	
+.global__footer ul li.fade--trans:hover,
+li.fade--trans a:hover
+	background cw-orange
+	color white
+	-webkit-transition all 0.0s ease-in
+	-moz-transition all 0.0s ease-in
+	-o-transition all 0.0s ease-in
+	transition all 0.0s ease-in
   	
 .global__footer--inner
 	max-width 720px
