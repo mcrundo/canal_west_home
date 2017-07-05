@@ -1,7 +1,6 @@
 html,
 body {
   font: 18px 'Zilla Slab', Times;
-  height: 100%;
   margin: 0;
   padding: 0;
   position: relative;
@@ -143,8 +142,7 @@ li {
     display: inline;
   }
   .global__footer {
-    height: inherit;
-    max-height: 350px;
+    height: 350px;
   }
   .global__footer ul,
   .global__footer img {
