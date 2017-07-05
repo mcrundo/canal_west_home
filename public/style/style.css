@@ -9,6 +9,7 @@ body {
 .headrer__forst,
 a {
   color: #f16522;
+  font-weight: 700;
   text-decoration: none;
 }
 a:hover {
@@ -53,6 +54,7 @@ span.copy--body {
   font-weight: 300;
 }
 li {
+  font-size: 18px;
   margin-bottom: 10px;
 }
 .global__footer {
@@ -88,6 +90,9 @@ li {
   -moz-transition: all 0.4s ease-in;
   -o-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
+}
+a .fade--trans {
+  cursor: pointer;
 }
 .fade--trans:hover,
 li.fade--trans:hover {
