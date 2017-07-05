@@ -2,7 +2,7 @@ extends layout
 
 block content
 	include ./partials/_hero
-		ul
+		ul.list--copy
 			each tech in data
 				li!= tech.title
 					span &nbsp;

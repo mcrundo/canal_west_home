@@ -13,7 +13,8 @@ a {
 }
 a:hover {
   color: #00b7f1;
-  text-decoration: underling;
+  cursor: pointer;
+  text-decoration: underline;
 }
 a:visited {
   color: #00b7f1;
@@ -51,6 +52,9 @@ h4 {
 }
 span.copy--body {
   font-weight: 300;
+}
+ul {
+  list-style: none;
 }
 li {
   font-size: 18px;
@@ -100,4 +104,68 @@ li {
   font-size: 0;
   height: 0;
   visibility: hidden;
+}
+@media (max-width: 760px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  .container {
+    min-width: 0;
+  }
+  .inner {
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  .inner h3 {
+    text-align: center;
+  }
+  .main img {
+    margin: 5px 10px;
+    width: 75%;
+  }
+  ul.list--copy {
+    margin-top: 10px;
+    padding: 0 15px;
+  }
+  .list--copy li {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  .list--copy li:first-of-type {
+    border-top: none;
+  }
+  li strong:first-child {
+    display: block;
+    margin-bottom: 5px;
+  }
+  li .copy--body strong {
+    display: inline;
+  }
+  .global__footer {
+    height: inherit;
+    max-height: 350px;
+  }
+  .global__footer ul,
+  .global__footer img {
+    float: none;
+  }
+  .global__footer ul {
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+  }
+  .global__footer img {
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+  .global__footer ul li.fade--trans,
+  .global__footer ul li.fade--trans a,
+  .global__footer ul li.fade--trans a:hover {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    text-align: center;
+  }
 }
