@@ -27,7 +27,6 @@ h4 {
   margin: 0 auto;
 }
 .container {
-  margin-bottom: -200px;
   min-height: 100%;
   min-width: 1200px;
   position: relative;
@@ -50,13 +49,17 @@ h4 {
   margin-left: 20px;
   max-width: 400px;
 }
+span.copy--body {
+  font-weight: 300;
+}
 li {
   margin-bottom: 10px;
 }
 .global__footer {
   background: #00b7f1;
-  color: #f16522;
+  color: #fff;
   font-size: 18px;
+  font-family: Rubik;
   height: 210px;
 }
 .global__footer img {
@@ -70,7 +73,7 @@ li {
 }
 .global__footer ul li {
   list-style: none;
-  text-shadow: 1px 1px #fff;
+  text-shadow: 1px 1px #f16522;
 }
 .global__footer ul li.fade--trans {
   background: #fff;

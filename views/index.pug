@@ -1,24 +1,15 @@
 extends layout
 
 block content
-	div.header__first
-	div.header__secomd
-	div.container
-		header
-			h1.visually-hidden
-				span Canal West
-		section
-			div.inner.content__center.animated.fadeIn
-				div.main.content__center
-					img(src="https://s3.us-east-2.amazonaws.com/canalweststudio/assets/img/CanalWest_Logo-web.svg")
-				h2 Delivering modern technical solutions for <em>your</em> business.
-				ul
-					each tech in data
-						li!= tech.title
-							span &nbsp;
-							!=tech.body
-				h3 <strong>Canal West Studio</strong>: <em>Flexible. Honest. Agile. Consistent. Built for the Future. Today.</em>
-				h4 We are <em>very</em> selective on projects, but please <a href="mailto:contact@canalweststudio.com">Contact Us</a> for a free consultation.
+	include ./partials/_hero
+		ul
+			each tech in data
+				li!= tech.title
+					span &nbsp;
+					span.copy--body
+						!=tech.body
+		h3 <strong>Canal West Studio</strong>: <em>Flexible. Honest. Agile. Consistent. Built for the Future. Today.</em>
+		h4 We are <em>very</em> selective on projects, but please <a href="mailto:contact@canalweststudio.com">Contact Us</a> for a free consultation.
 
-		include ./common/_footer
+	include ./partials/_footer
 
