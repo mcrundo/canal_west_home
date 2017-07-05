@@ -6,7 +6,7 @@ var express = require('express')
 /* GET home page. */
 router.get('/', function(req, res, next) {
 	request(tech_json, function(err, response, main) {
-		var techs = [];
+	var techs = [];
     var t = JSON.parse(main);
     data = t.tech
     res.render('index', data);

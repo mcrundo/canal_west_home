@@ -6,7 +6,6 @@ body {
   padding: 0;
   position: relative;
 }
-.headrer__forst,
 a {
   color: #f16522;
   font-weight: 700;
@@ -70,14 +69,10 @@ li {
 }
 .global__footer ul {
   margin-top: 38px;
-  display: inline-block;
   float: right;
-}
-.global__footer ul li {
   list-style: none;
-  text-shadow: 1px 1px #f16522;
 }
-.global__footer ul li.fade--trans {
+.global__footer ul li.fade--trans a {
   background: #fff;
   color: #f16522;
   cursor: pointer;
@@ -85,28 +80,18 @@ li {
   font-weight: 700;
   padding: 2px 35px;
   text-align: left;
-}
-.global__footer ul li.fade--trans -webkit-transition all 0.4s ease-in {
-  -moz-transition: all 0.4s ease-in;
-  -o-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
-}
-a .fade--trans {
-  cursor: pointer;
-}
-.fade--trans:hover,
-li.fade--trans:hover {
-  background: #f16522;
-  color: #fff;
+  text-shadow: 1px 1px #1abc9c;
 }
 .global__footer ul li.fade--trans:hover,
-li.fade--trans a:hover {
+.global__footer ul li.fade--trans a:hover {
   background: #f16522;
   color: #fff;
-  -webkit-transition: all 0s ease-in;
-  -moz-transition: all 0s ease-in;
-  -o-transition: all 0s ease-in;
-  transition: all 0s ease-in;
+}
+.global__footer ul li.fade--trans:hover -webkit-transition all 0.4s ease-out,
+.global__footer ul li.fade--trans a:hover -webkit-transition all 0.4s ease-out {
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 .global__footer--inner {
   max-width: 720px;
