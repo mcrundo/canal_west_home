@@ -52,7 +52,7 @@ h4
 	display block
 	margin-top 40px
 	max-width 720px
-	padding 60px 20px
+	padding 60px 20px 20px 20px
 	
 .main 
 	max-width 680px
@@ -69,6 +69,24 @@ ul
 li
 	font-size 18px
 	margin-bottom 10px
+	
+ul.list--copy 
+	margin-top 10px
+	padding-left 20px
+
+.list--copy 
+	li
+		border-top 1px solid light-gray
+		padding-top 10px
+		&:first-of-type
+			border-top none
+			
+	li strong:first-child
+		display block
+		margin-bottom 5px
+		
+	li .copy--body strong
+		display inline
 	
 .global__footer
 	background cw-blue
@@ -131,20 +149,6 @@ li
 	ul.list--copy
 		margin-top 10px
 		padding 0 15px
-			
-	.list--copy 
-		li
-			border-top 1px solid light-gray
-			padding-top 10px
-			&:first-of-type
-				border-top none
-			
-	li strong:first-child
-		display block
-		margin-bottom 5px
-		
-	li .copy--body strong
-		display inline
 			
 	.global__footer 
 		height 350px
