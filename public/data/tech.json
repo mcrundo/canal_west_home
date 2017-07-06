@@ -2,27 +2,27 @@
 	"tech": [
 		{
 			"title": "<strong>Full-Stack Software</strong>",
-			"body": "(<em>API Development, Rails, JS + Frameworks/Libraries, Node.js, Salesforce APEX, React, React Native (iOS/Android), Shopify and much more&hellip;. Covering the web front end, back end, data storage, mobile, authentiation strategies and security</em>)"
+			"body": "<em>API Development, Rails, JavaScript + Frameworks/Libraries, Node.js, Salesforce APEX, React, React Native (iOS/Android), Shopify and much more&hellip;. Covering the web front end, back end, data storage, mobile, authentiation strategies and security</em>"
 		},
 		{
 			"title": "<strong>Consultation</strong>",
-			"body": "(<em>Have <strong>your</strong> big idea? <a href='mailto:contact@canalweststudio.com'>Contact</a> <strong>Canal West</strong> for consultation: MVP (Minimum Viable Prodct) Planning, Wireframes, Milestone/User Story Planning, Quote Expectaions&nbsp;&ndash;&nbsp;<strong>Saving You Money and Time</strong>&nbsp;&ndash;&nbsp;Before Development, with us or a &#8220;big&ndash;time&#8221; agency</em>)"
+			"body": "<em>Have <strong>your</strong> big idea? <a href='mailto:contact@canalweststudio.com'>Contact</a> <strong>Canal West</strong> for consultation: MVP (Minimum Viable Prodct) Planning, Wireframes, Milestone/User Story Planning, Quote Expectaions&nbsp;&ndash;&nbsp;<strong>Saving You Money and Time</strong>&nbsp;&ndash;&nbsp;Before Development, with us or a &#8220;big&ndash;time&#8221; agency</em>"
 		},
 		{
 			"title": "<strong>Modern Compliance Approaches</strong>",
-			"body": "(<em>Accessibility, Localiztion, Modularied Components, Mobile Web/Responsive Design, 3rd Party API Integration</em>)"
+			"body": "<em>Accessibility, Localiztion, Modular Components, Mobile Web/Responsive Design, 3rd Party API Integration</em>"
 		},
 		{
 			"title": "<strong>Marketing</strong>",
-			"body": "(<em>Lead Tracking, Tailored Customer Relation Management, Analytics, Campaign Management, Audience Insights, Campaign Performance Consulation</em>)"
+			"body": "<em>Lead Tracking, Tailored Customer Relation Management, Analytics, Campaign Management, Audience Insights, Campaign Performance Consulation</em>"
 		},
 		{
 			"title": "<strong>Media/Branding</strong>",
-			"body": "(<em>Logos, Wordmarks, General Design, Typeface, Copy, Photography/Video (Camera/Drone) w/ wireless mic setup, Overall Branding Style Guides</em>)"
+			"body": "<em>Logos, Wordmarks, General Design, Typeface, Copy, Photography/Video (Camera/Drone) w/ wireless mic setup, Overall Branding Style Guides</em>"
 		},
 		{
-			"title": "<strong>Cutting-Edge Technology</strong>",
-			"body": "<em>(iBeacon/Bluetooth Concepts and Solutions, Physical GPS Tracking, Raspberry Pi Applications for Various Use Cases)</em>"
+			"title": "<strong>Future-Thinking Technology</strong>",
+			"body": "<em>iBeacon/Bluetooth Concepts and Solutions, Physical GPS Tracking, Raspberry Pi Applications for Various Use Cases</em>"
 		}
 	]
 }
